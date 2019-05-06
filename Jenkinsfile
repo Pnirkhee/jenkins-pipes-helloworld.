@@ -1,6 +1,4 @@
 node {
-   try 
-   {
        stage('prepare') {
        sh "git clean -fdx"
                         }
@@ -15,4 +13,4 @@ node {
     
      } 
   
-       }
+       
