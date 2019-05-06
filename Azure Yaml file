@@ -1,0 +1,10 @@
+jobs:
+- job: prepare
+  steps:
+  - script: git clean -fdx
+- job: test
+  steps:
+  - script: ./test_hello.sh
+- job: package
+  steps:
+  - script: tar -cvzf hello.tar.gz hello.sh
