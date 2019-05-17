@@ -7,6 +7,7 @@ A minimal and stupid "helloworld" example project for the [Jenkins Pipes](https:
 New line added
 
 ## How it works
+New line added
 
 This example will be built on our [jenkins-pipes-infra](https://github.com/tknerr/jenkins-pipes-infra/blob/master/Dockerfile) because in [jenkins-pipes-jobs](https://github.com/tknerr/jenkins-pipes-jobs/blob/master/ci_jobs.groovy) we configured to build all `master` and `feature/*` branches of this repo.
 
