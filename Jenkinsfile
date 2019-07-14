@@ -1,6 +1,6 @@
 node {
        stage('prepare') {
-       sh "git clean -fdx"
+       sh "git clean -fdX"
                         }
     
         stage('test') {
