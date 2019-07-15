@@ -1,7 +1,7 @@
 node {
-     //  stage('prepare') {
-      // sh "git clean -fd"
-        //                }
+       stage('prepare') {
+       sh "git clean -fd"
+                        }
     
         stage('test') {
         sh "./test_hello.sh"
