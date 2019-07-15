@@ -4,7 +4,7 @@ node {
                         }
     
         stage('test') {
-        sh "/var/lib/jenkins/workspace/Migration/jenkins-pipes-helloworld./test_hello.sh"
+        sh "./test_hello.sh"
                       }
      
         stage('package') {
